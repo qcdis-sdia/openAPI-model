@@ -1,0 +1,23 @@
+    CloudsStormTopTopology:
+        type: "object"
+        properties:
+            userName:
+                type: "string"
+            publicKeyPath:
+                type: "string"
+            connections:
+              type: object
+              additionalProperties:
+                  type: object                    
+            topologies:
+                type: array
+                items:
+                    $ref: 'https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudsStormSubTopology.yml#/CloudsStormSubTopology'
+            subnets:
+                type: array
+                items:
+                    $ref: 'https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudsStormSubnets.yml#/CloudsStormSubnets'
+                
+
+                
+                

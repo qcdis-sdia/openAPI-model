@@ -1,0 +1,10 @@
+  CloudsStormInfrasCode:
+    type: "object"
+    properties:
+      Mode:
+        type: "string"
+        enum: [LOCAL, CTRL]
+      InfrasCodes:
+        type: "array"
+        items:
+          $ref: "https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/InfrasCode.yml#/InfrasCode"

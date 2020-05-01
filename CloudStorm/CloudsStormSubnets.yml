@@ -1,0 +1,13 @@
+    CloudsStormSubnets:
+        type: "object"
+        properties:
+            name:
+                type: "string"
+            subnet:
+                type: "string"
+            netmask:
+                type: "string"
+            members:
+                type: array
+                items:
+                    $ref: 'https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudsStormSubMembers.yml#/CloudsStormSubMembers'

@@ -1,0 +1,9 @@
+  DBInfo:
+    type: "object"
+    properties:
+      GlobalEntry:
+          type: "string"
+      DCMetaInfo:
+          type: "array"
+          items:
+            $ref: "https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/DCMetaInfo.yml#/DCMetaInfo"

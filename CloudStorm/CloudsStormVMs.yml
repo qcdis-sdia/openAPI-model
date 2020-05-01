@@ -1,0 +1,21 @@
+  CloudsStormVMs:
+      type: "object"
+      properties:
+        SEngineClass:
+            type: "string"
+        extraInfo:
+            type: object
+            additionalProperties:
+                type: object       
+        WhetherCreateVPC:
+            type: "boolean"
+        sliceName:
+            type: "string"
+        diskSize:
+            type: "string"
+        duration:
+            type: "float"
+        VMs:
+            type: "array"
+            items:
+              $ref: "https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudsStormVM.yml#/CloudsStormVM"

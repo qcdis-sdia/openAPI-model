@@ -1,0 +1,23 @@
+  DCMetaInfo:
+      type: "object"
+      properties:
+        domain:
+            type: "string"
+        endpoint:
+            type: "string"
+        country:
+            type: "string"
+        longitude:
+            type: "string"
+        latitude:
+            type: "string"
+        availability:
+            type: "string"
+        VMMetaInfo:
+            type: "array"
+            items:
+              $ref: "https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudsStormVM.yml#/CloudsStormVM"
+        extraInfo:
+            type: object
+            additionalProperties:
+                type: object    

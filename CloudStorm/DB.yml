@@ -1,0 +1,7 @@
+  DB:
+      type: "object"
+      properties:
+        cloudDBs:
+            type: array
+            items:
+              $ref: "https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudDB.yml#/CloudDB"
