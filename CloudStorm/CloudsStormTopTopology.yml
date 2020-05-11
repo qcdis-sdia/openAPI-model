@@ -12,11 +12,11 @@
             topologies:
                 type: array
                 items:
-                    $ref: 'https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudsStormSubTopology.yml#/CloudsStormSubTopology'
+                    $ref: 'https://raw.githubusercontent.com/QCDIS/openAPI-model/master/CloudStorm/CloudsStormSubTopology.yml#/CloudsStormSubTopology'
             subnets:
                 type: array
                 items:
-                    $ref: 'https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudsStormSubnets.yml#/CloudsStormSubnets'
+                    $ref: 'https://raw.githubusercontent.com/QCDIS/openAPI-model/master/CloudStorm/CloudsStormSubnets.yml#/CloudsStormSubnets'
                 
 
                 
