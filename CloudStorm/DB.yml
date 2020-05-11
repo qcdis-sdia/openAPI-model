@@ -4,4 +4,4 @@
         cloudDBs:
             type: array
             items:
-              $ref: "https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/CloudStorm/CloudDB.yml#/CloudDB"
+              $ref: "https://raw.githubusercontent.com/QCDIS/openAPI-model/master/CloudStorm/CloudDB.yml#/CloudDB"
