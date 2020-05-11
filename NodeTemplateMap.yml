@@ -4,4 +4,4 @@
       name:
         type: "string"
       nodeTemplate:
-        $ref: "https://raw.githubusercontent.com/QCAPI-DRIP/openAPI-model/master/TOSCA/NodeTemplate.yml#/NodeTemplate"
+        $ref: "https://raw.githubusercontent.com/QCDIS/openAPI-model/master/TOSCA/NodeTemplate.yml#/NodeTemplate"
