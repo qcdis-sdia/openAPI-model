@@ -36,7 +36,11 @@
           artifacts:
               type: object
               additionalProperties:
-                  type: object            
+                  type: object           
+          workflows:
+              type: object
+              additionalProperties:
+                  type: string                     
 
      
  
